@@ -1,0 +1,515 @@
+/* roboto-mono-regular - latin_cyrillic */
+@font-face {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-mono-v13-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-mono-v13-latin_cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-mono-v13-latin_cyrillic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/roboto-mono-v13-latin_cyrillic-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/roboto-mono-v13-latin_cyrillic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-mono-v13-latin_cyrillic-regular.svg#RobotoMono")
+      format("svg"); /* Legacy iOS */
+}
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto Mono;
+  background-color: lightsteelblue;
+  background-image: url(../images/header_fon.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: #020305;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.headerStyle {
+  color: white;
+}
+.headerFlex {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 420px;
+
+  padding-right: 10%;
+  text-align: center;
+}
+
+.menuFlex {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+}
+.menuFlex ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-grow: 5;
+}
+.menuStyle {
+  background-color: black;
+  color: white;
+}
+.liFlex {
+  margin-right: 1cm;
+  padding: 0.1cm 0.5cm;
+}
+
+.linksStyle {
+  text-decoration: none;
+  color: inherit;
+}
+
+.liBorder {
+  border-left: 1px solid blue;
+}
+
+.logoFlex {
+  margin: 0.2cm auto;
+  padding: 0;
+  flex-grow: 1;
+}
+.logoFLex img {
+  height: 150px;
+  width: 150px;
+}
+
+.mainFlex {
+  display: flex;
+  flex-grow: 5;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-content: space-around;
+}
+.table {
+  border-radius: 5px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+}
+.table th,
+.resp-tab td {
+  padding: 10px 20px;
+
+  vertical-align: top;
+}
+
+.table td span {
+  display: none;
+  font-size: 11px;
+
+  text-transform: uppercase;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contactsFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 5% auto auto;
+  flex-grow: 1;
+  height: 150px;
+  width: 350px;
+}
+
+.contactsStyle {
+  border: 1px solid blue;
+}
+.BlackGroundStyle {
+  background-color: black;
+  color: white;
+}
+.imgFlexCompet {
+  margin: 0 30%;
+  flex-shrink: 0;
+}
+.mainFlexColumnsImg {
+  margin-left: 30%;
+}
+
+.mainFlexColumns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: center;
+}
+#mainFlexColumItems {
+  align-items: center;
+}
+.mainFlexRows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.mainFlexButton {
+  margin: 3% auto;
+}
+.mainFlexTitle {
+  margin: 1% auto;
+}
+.mainFlexText {
+  padding: 3% 3%;
+  align-self: center;
+}
+
+hr {
+  color: blue;
+  width: 90%;
+  margin: auto;
+}
+
+.mainFlexTitle {
+  align-self: flex-start;
+}
+
+.mainStyle {
+  background-color: white;
+}
+.imgLogo {
+  width: 50px;
+  height: 50px;
+}
+.imgMiddle {
+  width: 700px;
+  height: 400px;
+  flex-grow: 1;
+}
+.mainFlex table {
+  border: 1px solid blue;
+  border-spacing: 0px;
+}
+.mainFlex table td {
+  border: 1px solid blue;
+}
+.trFlexCaption {
+  text-align: center;
+}
+.tdFlexText {
+  padding: 1% 1%;
+}
+.trBg {
+  background-color: black;
+  color: white;
+}
+
+.footerBorder {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-width: 5px 7px;
+  border-style: solid;
+  border-color: black;
+}
+.footerFlex {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5cm 0.5cm;
+}
+
+.footerFlex img {
+  height: 50px;
+  width: 50px;
+}
+
+.footerStyle {
+  background-color: white;
+}
+
+.footerFlexTextStyle {
+  background-color: white;
+}
+@media (max-width: 1076px) {
+  .mainFlexText {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .menuFlex {
+    flex: 100%;
+  }
+  .footerFlex {
+    flex: 100%;
+  }
+}
+
+@media (max-width: 1027px) {
+  .liFlex {
+    margin-right: 1cm;
+    padding: 0.1cm 0.3cm;
+  }
+}
+@media (max-width: 952px) {
+  .liFlex {
+    margin-right: 1cm;
+    padding: 0.1cm 0.2cm;
+  }
+  .mainFlexColumns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: auto;
+  }
+  .imgMiddle {
+    margin-top: 2%;
+  }
+}
+@media (max-width: 914px) {
+  .liFlex {
+    margin-right: 1cm;
+    padding: 0.1cm 0.1cm;
+  }
+}
+@media (max-width: 876px) {
+  .menuFlex ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .liBorder:last-child {
+    border: none;
+  }
+}
+@media (max-width: 768px) {
+  .table thead {
+    display: none;
+  }
+  .table tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .table td {
+    margin: 0 -1px 0 -1px;
+    padding-top: 35px;
+    position: relative;
+    width: 100%;
+  }
+  .table td span {
+    display: block;
+  }
+  .imgMiddle {
+    display: none;
+  }
+  .menuFlex {
+    height: 100px;
+  }
+  .mainFlexColumns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: auto;
+  }
+  .contactsStyle:last-child {
+    text-align: center;
+
+    white-space: pre-line;
+  }
+
+  .logoFLex img {
+    display: none;
+  }
+
+  .mainFlexColumns {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: auto;
+  }
+  .contactsStyle {
+    font-size: 11pt;
+    min-width: 60%;
+  }
+
+  .menuFlex img {
+    display: none;
+  }
+}
+
+@media (max-width: 745px) {
+  .table thead {
+    display: none;
+  }
+  .table tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .table td {
+    margin: 0 -1px 0 -1px;
+    padding-top: 35px;
+    position: relative;
+    width: 100%;
+  }
+  .table td span {
+    display: block;
+  }
+
+  .imgMiddle {
+    display: none;
+  }
+}
+@media (max-width: 606px) {
+  .table thead {
+    display: none;
+  }
+  .table tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .table td {
+    margin: 0 -1px 0 -1px;
+    padding-top: 35px;
+    position: relative;
+    width: 100%;
+  }
+  .table td span {
+    display: block;
+  }
+  .menuFlex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+    height: 200px;
+  }
+  .menuFlex ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .liBorder {
+    border-left: none;
+    border-bottom: 1px solid black;
+  }
+
+  .mainFlexRows .imgLogo {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .table thead {
+    display: none;
+  }
+  .table tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .table td {
+    margin: 0 -1px 0 -1px;
+    padding-top: 35px;
+    position: relative;
+    width: 100%;
+  }
+  .table td span {
+    display: block;
+  }
+  .footerFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 0.5cm 0.5cm;
+    flex: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .table thead {
+    display: none;
+  }
+  .table tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .table td {
+    margin: 0 -1px 0 -1px;
+    padding-top: 35px;
+    position: relative;
+    width: 100%;
+  }
+  .table td span {
+    display: block;
+  }
+
+  .mainFlexColumns {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: auto;
+  }
+  .contactsStyle {
+    font-size: 11pt;
+    width: 80%;
+  }
+}
