@@ -102,7 +102,12 @@ body {
 .liBorder {
   border-left: 1px solid blue;
 }
-
+.liLogoFlex{
+  flex-grow: 2;
+  flex-basis: 400px;
+  margin: 0.2cm auto;
+  padding: 0;
+}
 .logoFlex {
   margin: 0.2cm auto;
   padding: 0;
