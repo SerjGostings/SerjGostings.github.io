@@ -289,6 +289,9 @@ hr {
     padding: 0.1cm 0.3cm;
   }
 }
+.liStyleCircle{
+list-style-type: circle;
+}
 @media (max-width: 952px) {
   .liFlex {
     margin-right: 1cm;
